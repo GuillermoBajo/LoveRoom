@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "LoveRoom",
+    "slug": "reactnat",
+    "version": "2.0.0",
+    "orientation": "default",
+    "icon": "./assets/logoLoveRoom.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logoLoveRoom.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logoLoveRoom.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.andreei19.LoveRoom"
+    },
+    "web": {
+      "favicon": "./assets/logoLoveRoom.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "90bcc24e-9a6e-471e-a621-5ec1b68abe5c"
+      }
+    },
+    "owner": "gbl87"
+  }
+}
